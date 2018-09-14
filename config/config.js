@@ -6,6 +6,7 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 const { env } = process;
+// console.log(env)
 
 module.exports = {
   "development": {
@@ -14,8 +15,8 @@ module.exports = {
     "database": env.MYSQL_DB_NAME,
     "host": env.MYSQL_HOST,
     "port": env.MYSQL_PORT,
-    "dialect": "mysql",
     "operatorsAliases": false,
+    "dialect": "mysql",
   },
   "production": {
     "username": env.MYSQL_USERNSME,
