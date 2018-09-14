@@ -22,6 +22,10 @@
     "env2": "^2.2.2",
     "eslint": "^5.5.0",
     "eslint-config-airbnb-base": "^13.1.0",
-    "hapi": "^16.6.3"
+    "hapi": "^16.6.3",
+    "hapi-swagger": "^7.10.0",
+    "inert": "^4.2.1",
+    "package": "^1.0.1",
+    "vision": "^4.1.1"
   }
 }

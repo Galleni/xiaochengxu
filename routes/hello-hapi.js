@@ -1,10 +1,14 @@
 //routes/hello-hapi.js
-module.exports=[
+module.exports = [
   {
     method: 'GET',
     path: '/',
-    handler: (request, reply) => { 
+    handler: (request, reply) => {
       reply('hello hapi~')
+    },
+    config: {
+      tags: ['api', 'tests'],
+      description: '测试hello-hapi',
     }
   }
 ]
