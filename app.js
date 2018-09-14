@@ -16,6 +16,7 @@ server.connection({
   host: config.host,
 });
 
+
 const init = async () => {
   await server.register([
     //为系统使用hapi-swagger
