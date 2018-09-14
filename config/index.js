@@ -1,7 +1,8 @@
 // config/index.js
 const { env } = process;
 // console.log(env);
-module.exports = {
+const config = {
   host: env.HOST,
   port: env.PORT,
 }
+module.exports = config;
