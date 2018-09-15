@@ -2,7 +2,7 @@
   "name": "xiaochengxu",
   "version": "1.0.0",
   "description": "node小程序",
-  "github":"https://github.com/Galleni/xiaochengxu.git",
+  "github": "https://github.com/Galleni/xiaochengxu.git",
   "email": "295161822@qq.com",
   "main": "index.js",
   "scripts": {
