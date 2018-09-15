@@ -20,6 +20,7 @@ module.exports = [
         { name: 'tests', description: 'test related' },
         { name: 'shops', description: 'Store related' },
         { name: 'orders', description: 'Order related' },
+        { name: 'users', description: 'user related' },
       ]
     }
   }
